@@ -14,12 +14,13 @@ export default {
       background: "#FBF6EE",
       black: "#000000",
       darkgrey: "#D9D9D9",
-      lightgrey: "#F1EFEF",
+      lightgrey: "#B6C2C2" ,
       white: "#fff",
       green: "#65B741",
       lightgreen: "##B3F694",
       orange: "##FFB534",
       maroon: "#893813",
+      skyblue:"#A0E9FF"
     },
     extend: {
       height: {
@@ -29,8 +30,11 @@ export default {
         'img': "2rem"
       },
       gridTemplateRows: {
-        'layout': 'auto 3fr auto'
+        'grid-rows': '10% auto'
       },
+      gridTemplateColumns: {
+        'grid-columns': 'auto'
+      }
     },
   },
   plugins: [],
