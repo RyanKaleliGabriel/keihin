@@ -26,15 +26,8 @@ export default {
       height: {
         screen: '100dvh'
       },
-      minWidth: {
-        'img': "2rem"
-      },
-      gridTemplateRows: {
-        'grid-rows': '10% auto'
-      },
-      gridTemplateColumns: {
-        'grid-columns': 'auto'
-      }
+
+
     },
   },
   plugins: [],
