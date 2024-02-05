@@ -20,7 +20,8 @@ export default {
       lightgreen: "##B3F694",
       orange: "##FFB534",
       maroon: "#893813",
-      skyblue:"#A0E9FF"
+      skyblue:"#A0E9FF",
+      lightblue:"#F8FBFD"
     },
     extend: {
       height: {
