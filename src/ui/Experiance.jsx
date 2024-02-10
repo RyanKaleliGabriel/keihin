@@ -8,7 +8,7 @@ function Experiance() {
         Experiance and WorkForce
       </h2>
 
-      <div className="flex gap-24 mt-12">
+      <div className="md:flex gap-24 mt-12">
         <div>
           <p className="text-[13px] text-justify">
             <Bluespan>KEIHIN MARITIME SERVICES LTD</Bluespan> posses perhaps
@@ -33,13 +33,13 @@ function Experiance() {
         <img
           src="/exp1.jpeg"
           alt="ExperianceSection Image"
-          className="h-96 w-100 mr-24"
+          className="h-96 w-100 lg:mr-24 sm:mt-5 md:mt-0"
         />
       </div>
 
-      <div className="flex gap-24 mt-8">
+      <div className="md:flex gap-24 mt-8">
         <img src="/exp2.jpg" className="h-96 w-96" />
-        <div className="text-[13px] text-justify mr-24 ">
+        <div className="text-[13px] text-justify lg:mr-24 sm:mt-5 md:mt-0">
           <div className="mb-8">
             <div className="text-[13px] flex items-center">
               <HiChevronUp className="text-[16px] mr-2" />

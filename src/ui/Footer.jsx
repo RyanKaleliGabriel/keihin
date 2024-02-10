@@ -4,7 +4,7 @@ import { HiChevronRight,} from "react-icons/hi";
 function Footer() {
     return (
         <>
-            <footer className="bg-[black] text-[white] flex justify-between px-12 py-4 font-popins">
+            <footer className="bg-[black] text-[white] md:flex justify-between px-12 py-4 font-popins">
                 <div>
                     <h1 className="font-bold text-[16px] mb-5">KEIHIN MARITIME SERVICES</h1>
 
@@ -21,7 +21,7 @@ function Footer() {
                 </div>
 
                 <div>
-                    <h2 className="font-bold text-[14px] mb-5">Useful Links</h2>
+                    <h2 className="font-bold text-[14px] mb-5 sm:mt-5 md:mt-0">Useful Links</h2>
                     <ul className="text-[12px]">
                         <div className="flex items-center mb-3">
                             <HiChevronRight className="text-[16px] text-[maroon]" />
