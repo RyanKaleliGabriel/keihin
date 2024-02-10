@@ -1,4 +1,4 @@
-import Bluespan from "./bluespan";
+import Bluespan from "./Bluespan"
 import { CiCircleCheck } from "react-icons/ci";
 
 function About() {
