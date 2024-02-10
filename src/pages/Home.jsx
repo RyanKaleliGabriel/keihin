@@ -1,6 +1,7 @@
 import About from "../ui/About";
 import AppLayout from "../ui/AppLayout";
 import Clients from "../ui/Clients";
+import Experiance from "../ui/Experiance";
 import Services from "../ui/Services";
 import ServicesTwo from "../ui/ServicesTwo";
 import Welcome from "../ui/Welcome";
@@ -17,6 +18,7 @@ function Home() {
             <ServicesTwo />
             <Why />
             <Clients />
+            <Experiance />
         </AppLayout>
     );
 }
