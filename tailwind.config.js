@@ -6,7 +6,7 @@ export default {
       popins: 'Poppins'
     },
     screens: {
-      'sm': '375px',
+      'sm': '320px',
       'md': '768px',
       'lg': '1280px'
     },
@@ -18,10 +18,10 @@ export default {
       white: "#fff",
       green: "#65B741",
       lightgreen: "##B3F694",
-      orange: "##FFB534",
       maroon: "#893813",
       skyblue:"#A0E9FF",
-      lightblue:"#F8FBFD"
+      lightblue:"#F8FBFD",
+      nrmblue:"#5AB8CF"
     },
     extend: {
       height: {

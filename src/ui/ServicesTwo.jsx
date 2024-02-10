@@ -8,9 +8,9 @@ function ServicesTwo() {
     return (
         <section id="servicesOne" className="px-8 mt-16 font-popins">
             <h2 className="text-[1.5rem] text-[lightgrey] text-center">Keihin Services</h2>
-            <div className="mt-12 flex gap-12 text-justify">
-                <img src="/services.jpeg" alt="Services Section Image" className=" ml-12 rounded-3xl h-[25%] w-[25%]" />
-                <div className="flex flex-col gap-8 ml-20">
+            <div className="mt-12 md:flex gap-12 text-justify">
+                <img src="/services.jpeg" alt="Services Section Image" className="sm:hidden md:inline ml-12 rounded-3xl h-[25%] w-[25%]" />
+                <div className="flex flex-col gap-8 md:ml-20">
                     <div className="flex items-center gap-5 ">
                         <FaShippingFast className="text-3xl text-[skyblue]" />
                         <div className="mt-4 basis-9/12">

@@ -1,10 +1,10 @@
-import Bluespan from "./bluespan";
+import Bluespan from "./Bluespan"
 import { CiCircleCheck } from "react-icons/ci";
 
 function About() {
     return (
-        <section id="about" className="px-8 mt-16 flex gap-12 font-popins">
-            <img src="/about.jpg" alt="About Section Image" className="h-96 w-96" />
+        <section id="about" className="px-8 mt-16 md:flex gap-12 font-popins sm:flex-row">
+            <img src="/about.jpg" alt="About Section Image" className="md:h-96 md:w-96 sm:mb-8" />
             <div className="flex flex-col gap-6 text-justify">
                 <h2 className="text-[1.5rem] text-[lightgrey] ">About Company</h2>
                 <p className="text-[13px]"><Bluespan>KEIHIN MARITIME SERVICES CO. LTD</Bluespan>  is a registered company and incorporated in the Republic of Kenya. Its main objective is to supply General Hardware, Building blocks, Timber, Repairs, Sand, Hardcore, Food staff and provision of clearing and forwarding services.</p>

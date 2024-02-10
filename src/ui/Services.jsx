@@ -1,8 +1,6 @@
-import { GiStorkDelivery } from "react-icons/gi";
 import { MdOutlineFlight } from "react-icons/md";
 import { FaForward } from "react-icons/fa";
 import { FaShip } from "react-icons/fa6";
-
 import { HiShoppingCart } from "react-icons/hi";
 
 
@@ -13,7 +11,7 @@ function Services() {
     return (
         <section id="servicesOne" className="px-8 mt-16 font-popins">
             <h2 className="text-[1.5rem] text-[lightgrey] text-center">Keihin Services</h2>
-            <div className="mt-12 flex gap-2 text-justify">
+            <div className="mt-12 md:flex gap-2 text-justify">
                 <div className="flex flex-col gap-8">
                     <div className="flex items-center gap-5 ">
                         <HiShoppingCart className="text-3xl text-[skyblue]" />
@@ -47,7 +45,7 @@ function Services() {
                         </div>
                     </div>
                 </div>
-                <img src="/services.jpeg" alt="Services Section Image" className="mr-12 rounded-3xl h-[25%] w-[25%]" />
+                <img src="/services.jpeg" alt="Services Section Image" className="sm:hidden md:inline mr-12 rounded-3xl h-[25%] w-[25%]" />
             </div>
         </section>
     );
