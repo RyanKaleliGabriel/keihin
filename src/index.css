@@ -1,3 +1,37 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* HTML: <div class="loader"></div> */
+.spinnerFull{
+    margin: 2.5rem;
+    height: calc(100vh - 5rem);
+    /* background-color: var(--color-dark--1); */
+}
+.spinnerContainer{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader {
+    width: 50px;
+    aspect-ratio: 1;
+    color: #5AB8CF;
+    border-radius: 50%;
+    display: grid;
+    background: 
+      conic-gradient(from 90deg at 4px 4px,#0000 90deg,currentColor 0)
+      -4px -4px/calc(50% + 2px) calc(50% + 2px),
+      radial-gradient(farthest-side,currentColor 6px,#0000 7px calc(100% - 6px),currentColor calc(100% - 5px)) no-repeat;
+    animation: l10 2s infinite linear;
+    position: relative;
+  }
+  .loader:before {
+    content: "";
+    border-radius: inherit;
+    background: inherit;
+    transform: rotate(45deg);
+  }
+  @keyframes l10 {to{transform: rotate(.5turn)}}

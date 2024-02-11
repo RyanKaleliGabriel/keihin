@@ -1,12 +1,12 @@
-import About from "../ui/About";
+import About from "../features/About/About";
 import AppLayout from "../ui/AppLayout";
-import Clients from "../ui/Clients";
-import Experiance from "../ui/Experiance";
-import Services from "../ui/Services";
-import ServicesTwo from "../ui/ServicesTwo";
-import Welcome from "../ui/Welcome";
-import WhatWeDo from "../ui/WhatWeDo";
-import Why from "../ui/Why";
+import Clients from "../features/Clients/Clients";
+import Experiance from "../features/Experiance/Experiance";
+import Services from "../features/Services/Services";
+import ServicesTwo from "../features/Services/ServicesTwo";
+import Welcome from "../features/Landing/Welcome";
+import WhatWeDo from "../features/WhatWeDo/WhatWeDo";
+import Why from "../features/Why/Why";
 
 function Home() {
     return (

@@ -1,4 +1,5 @@
 import { HiChevronRight,} from "react-icons/hi";
+import { Link } from "react-router-dom";
 
 
 function Footer() {
@@ -25,20 +26,13 @@ function Footer() {
                     <ul className="text-[12px]">
                         <div className="flex items-center mb-3">
                             <HiChevronRight className="text-[16px] text-[maroon]" />
-                            <li>Home</li>
+                            <Link to='/'>Home</Link>
                         </div>
                         <div className="flex items-center mb-3">
                             <HiChevronRight className="text-[16px] text-[maroon]" />
-                            <li>About Us</li>
+                            <Link to='/contact'>Contact</Link>
                         </div>
-                        <div className="flex items-center mb-3">
-                            <HiChevronRight className="text-[16px] text-[maroon]" />
-                            <li>Services</li>
-                        </div>
-                        <div className="flex items-center mb-3">
-                            <HiChevronRight className="text-[16px] text-[maroon]" />
-                            <li>WorkForce</li>
-                        </div>
+
                     </ul>
                 </div>
 
