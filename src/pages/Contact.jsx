@@ -1,6 +1,6 @@
 import AppLayout from "../ui/AppLayout";
-import ContactUs from "../ui/ContactUs";
-import ContactDetails from "../ui/ContactDetails";
+import ContactUs from "../features/Landing/ContactUs";
+import ContactDetails from "../features/Contact/ContactDetails";
 
 function Contact() {
   return (

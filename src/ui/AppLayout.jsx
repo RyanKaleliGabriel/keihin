@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 
-import Header from "./Header";
-import Footer from "./Footer";
+import Header from "../features/partials/Header";
+import Footer from "../features/partials/Footer";
 
 
 function AppLayout({children}) {
