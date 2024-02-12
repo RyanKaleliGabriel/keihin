@@ -14,7 +14,7 @@ function About() {
                     <p>Deals with the <Bluespan>management of cargo</Bluespan> as it enters or exits a country.</p>
                 </div>
                 <div className="text-[13px] flex items-center">
-                    <CiCircleCheck className="text-[maroon] text-[44px] mr-2" />
+                    <CiCircleCheck className="text-[maroon] text-[24px] mr-2" />
                     <p> It consists of a sequence of <Bluespan>critical processes</Bluespan> designed to make the flow of commodities as smooth and efficient as possible. </p>
                 </div>
             </div>
