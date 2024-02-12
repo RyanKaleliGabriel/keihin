@@ -12,17 +12,19 @@ function Header() {
   };
 
   return (
-    <header className="fixed top-0 w-full bg-white shadow-2xl flex justify-between px-12 py-6 font-popins">
-      <Link to="/" className="md:w-[12%] md:h-[12%] w-[25%] ">
-        <img src="/logo.png" alt="Keihin Logo"  />
+    <header className="fixed top-0 w-full bg-white shadow-2xl flex justify-between px-12 py-3 font-popins">
+      <Link to="/" className="md:w-[8%] md:h-[12%] w-[25%] ">
+        <img src="/logo.png" alt="Keihin Logo" />
       </Link>
 
-      <nav>
-        <ul className="lg:flex sm:hidden gap-4 text-[12px]">
-          <li className="text-[skyblue]">HOME</li>
-          <li>ABOUT</li>
-          <li>SERVICES</li>
-          <li>CONTACT</li>
+      <nav className="nav">
+        <ul className="lg:flex sm:hidden gap-4 mt-3 text-[12px]">
+          <li>
+            <Link to="/">HOME</Link>
+          </li>
+          <li>
+            <Link to="/contact">CONTACT</Link>
+          </li>
         </ul>
 
         <button onClick={handleClick} className={isOpen && style}>
@@ -33,7 +35,7 @@ function Header() {
           )}
         </button>
         {isOpen ? (
-          <nav className="text-sm animate__animated animate__bounceIn bg-lightblue lg:hidden sm:flex flex-col gap-4 p-4 absolute right-12 shadow-xl">
+          <nav className="nav text-sm animate__animated animate__bounceIn bg-lightblue lg:hidden sm:flex flex-col gap-4 p-4 absolute right-12 shadow-xl">
             <Link
               to="/"
               className=" text-center hover:bg-lightgrey px-5 py-3 rounded-lg"
