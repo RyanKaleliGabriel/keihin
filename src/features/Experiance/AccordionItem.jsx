@@ -1,15 +1,15 @@
 import { HiChevronUp, HiChevronDown } from "react-icons/hi2";
 import PropTypes from "prop-types";
 
-function AccordionItem({ title, content, isOpen, onToggle}) {
+function AccordionItem({ title, content, isOpen, onToggle }) {
   const handleClick = () => {
     onToggle(title);
   };
 
   return (
     <div className="mb-8">
-      <div className="text-[13px] flex items-center">
-        <button onClick={handleClick}>
+      <div className="text-[13px] flex items-center cursor-pointer" onClick={handleClick}>
+        <button>
           {isOpen && <HiChevronUp className="text-[16px] mr-2" />}
           {!isOpen && <HiChevronDown className="text-[16px] mr-2" />}
         </button>
