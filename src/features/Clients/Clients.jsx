@@ -5,13 +5,8 @@ function Clients() {
   const {list1, list2} = clientsData;
 
   return (
-    <section id="clients" className="px-8 mt-16 md:flex lg:gap-12 font-popins">
-      <img
-        src="clients.jpg"
-        alt="Client Section Image"
-        className=" sm:h-80 md:h-96 lg:h-100 w-96"
-      />
-      <div className="md:ml-12 ">
+    <section id="clients" className="px-8 mt-16 font-popins">
+      <div className="">
         <h2 className="text-[1.5rem] text-[lightgrey] sm:mt-5 md:mt-0">
           Our Clients
         </h2>

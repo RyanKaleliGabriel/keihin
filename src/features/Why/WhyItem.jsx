@@ -4,9 +4,9 @@ import Bluespan from "../../ui/Bluespan";
 
 function WhyItem({ number, text }) {
   return (
-    <div className="border-2 border-[lightgrey] px-12 py-6 text-justify text-[12px]">
+    <div className="rounded-sm border border-[darkgrey] px-12 py-6 text-justify text-[12px]">
       <Bluespan>{number}</Bluespan>
-      <p>{text}</p>
+      <p className="text-[grey]">{text}</p>
     </div>
   );
 }

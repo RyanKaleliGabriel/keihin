@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 function Bluespan({children}) {
     return (
-        <span className="text-[skyblue]">{children}</span>
+        <span className="text-nrmblue">{children}</span>
     )
 }
 
