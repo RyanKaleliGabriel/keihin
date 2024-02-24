@@ -4,7 +4,7 @@ import { GiIronHulledWarship } from "react-icons/gi";
 
 function ServicesTwo() {
   return (
-    <section id="servicesOne" className=" mt-16 font-popins">
+    <section className=" mt-16 font-popins" id="SERVICES">
       <h2 className="text-[1.5rem] text-[lightgrey] text-center">
         Keihin Services
       </h2>

@@ -1,9 +1,10 @@
 import { HiDocumentText, HiOutlinePaperAirplane, HiCube } from "react-icons/hi";
 import { HiOutlineArrowsUpDown } from "react-icons/hi2";
 
+
 function WhatWeDo() {
   return (
-    <section className="font-popins bg-[white] text-justify">
+    <section className="font-popins bg-[white] text-justify" id="WWD">
       <h2 className="text-[1.5rem] text-[lightgrey] text-center mt-10">
         What We Do
       </h2>
@@ -12,9 +13,9 @@ function WhatWeDo() {
         <p className="font-bold mb-4 text-[16px]">Customs Documentation</p>
         <p className="text-darkgrey text-[12px]">
           One of the key roles of Clearing and Forwarding services is to handle
-          all essential customs papers. This comprises the necessary paperwork for
-          imports and exports, as well as ensuring that cargo complies with all
-          applicable regulations and tariffs.{" "}
+          all essential customs papers. This comprises the necessary paperwork
+          for imports and exports, as well as ensuring that cargo complies with
+          all applicable regulations and tariffs.{" "}
         </p>
       </div>
       <div className=" px-14 py-20 bg-lightblue">

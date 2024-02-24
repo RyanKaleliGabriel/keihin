@@ -3,11 +3,9 @@ import { FaForward } from "react-icons/fa";
 import { FaShip } from "react-icons/fa6";
 import { HiShoppingCart } from "react-icons/hi";
 
-
 function Services() {
   return (
-
-    <section id="servicesOne" className="px-8 mt-16 font-popins">
+    <section className="px-8 mt-16 font-popins" id="SERVICES">
       <h2 className="text-[1.5rem] text-[lightgrey] text-center">
         Keihin Services
       </h2>
