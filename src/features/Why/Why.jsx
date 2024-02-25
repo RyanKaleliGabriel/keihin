@@ -3,7 +3,7 @@ import whyData from "../../devdata/why.json";
 
 function Why() {
   return (
-    <section id="why" className="px-8 mt-16 font-popins">
+    <section id="C&F" className="px-8 mt-16 font-popins">
       <h2 className="text-[1.5rem] text-[lightgrey] text-center">
         Why are Clearing and Forwarding Services Important?
       </h2>

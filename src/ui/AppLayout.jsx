@@ -1,23 +1,19 @@
-import PropTypes from 'prop-types'
+import PropTypes from "prop-types";
+import Header from "./Header";
+import Footer from "./Footer";
 
-import Header from "../features/partials/Header";
-import Footer from "../features/partials/Footer";
-
-
-function AppLayout({children}) {
-    return (
-        <div>
-            <Header />
-            <main>{children}</main>
-            <Footer />
-        </div>
-    );
+function AppLayout({ children }) {
+  return (
+    <div>
+      <Header />
+        <main>{children}</main>
+      <Footer />
+    </div>
+  );
 }
 
 AppLayout.propTypes = {
-    children: PropTypes.any
-}
-
-
+  children: PropTypes.any,
+};
 
 export default AppLayout;
