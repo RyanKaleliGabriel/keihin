@@ -4,7 +4,7 @@ import Bluespan from "../../ui/Bluespan";
 function About() {
   return (
     <section
-      id="about"
+      id="About"
       className="px-8 mt-16 md:flex gap-12 font-popins sm:flex-row"
     >
       <img
@@ -12,7 +12,7 @@ function About() {
         alt="About Section Image"
         className="md:h-96 md:w-96 sm:mb-8 "
       />
-      <div className="flex flex-col gap-6 text-justify ">
+      <div className="flex flex-col gap-6 text-justify text-[darkgrey] ">
         <h2 className="text-[1.5rem] text-[lightgrey] ">About Company</h2>
         <p className="text-[13px]">
           <Bluespan>KEIHIN MARITIME SERVICES CO. LTD</Bluespan> is a registered

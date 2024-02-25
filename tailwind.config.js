@@ -22,7 +22,9 @@ export default {
       skyblue: "#A0E9FF",
       lightblue: "#F8FBFD",
       nrmblue: "#5AB8CF",
-      navblue:"#E0F7F8"
+      navblue:"#E0F7F8",
+      orange:"#DF6035",
+      purple: "#CB6CE6"
     },
     extend: {
       height: {

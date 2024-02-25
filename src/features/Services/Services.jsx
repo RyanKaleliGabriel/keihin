@@ -5,7 +5,7 @@ import { HiShoppingCart } from "react-icons/hi";
 
 function Services() {
   return (
-    <section className="px-8 mt-16 font-popins" id="SERVICES">
+    <section id="SERVICES" className="px-8 mt-16 font-popins" >
       <h2 className="text-[1.5rem] text-[lightgrey] text-center">
         Keihin Services
       </h2>
@@ -14,7 +14,7 @@ function Services() {
           <div className="flex items-center gap-5 ">
             <HiShoppingCart className="text-3xl text-[skyblue]" />
             <div className="mt-4 basis-9/12">
-              <p className="font-bold text-[16px] mb-3">Genaral Supplies</p>
+              <p className="font-bold text-[16px]  mb-3">Genaral Supplies</p>
               <p className="text-[darkgrey] text-[12px]">
                 We supply all kind of products tour our existing and potential
                 customers on demand{" "}
@@ -60,9 +60,9 @@ function Services() {
           </div>
         </div>
         <img
-          src="/services.jpeg"
+          src="/exp2.jpg"
           alt="Services Section Image"
-          className="sm:hidden md:inline mr-12 rounded-md h-[25%] w-[25%]"
+          className="sm:hidden md:inline ml-12  h-[25%] w-[25%]"
         />
       </div>
     </section>

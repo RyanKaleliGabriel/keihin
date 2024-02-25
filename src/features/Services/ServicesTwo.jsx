@@ -4,11 +4,14 @@ import { GiIronHulledWarship } from "react-icons/gi";
 
 function ServicesTwo() {
   return (
-    <section className=" mt-16 font-popins" id="SERVICES">
-      <h2 className="text-[1.5rem] text-[lightgrey] text-center">
+    <section
+      className="px-8 mt-16 font-popins  bg-lightblue py-12"
+      id="SERVICESTWO"
+    >
+      <h2 className="mb-12 text-[1.5rem] text-[lightgrey] text-center">
         Keihin Services
       </h2>
-      <div className="mt-12 md:flex gap-12 text-justify bg-lightblue py-12">
+      <div className="md:flex gap-12 text-justify bg-lightblue ">
         <img
           src="/clients.jpg"
           alt="Services Section Image"
