@@ -5,12 +5,12 @@ import Bluespan from "../../ui/Bluespan";
 
 function Experiance() {
   return (
-    <section id="Experiance" className="mt-16 font-popins mb-8">
+    <section id="Experiance" className="mt-16 font-popins mb-8 bg-lightblue py-20">
       <h2 className="text-[1.5rem] text-[lightgrey] text-center">
         Experiance and WorkForce
       </h2>
 
-      <div className="text-center flex md:justify-around md:flex-row sm:flex-col mt-8 bg-lightblue py-20">
+      <div className="text-center flex md:justify-around md:flex-row sm:flex-col mt-8  ">
         <div className="flex flex-col items-center sm:mb-5 mb-0">
           <MdAccessTimeFilled className="text-[3rem] bg-orange text-white rounded-full p-2 mb-4" />
           <p className="font-bold text-maroon">20+</p>
