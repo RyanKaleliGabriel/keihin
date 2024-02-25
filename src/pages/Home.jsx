@@ -10,6 +10,7 @@ import ServicesTwo from "../features/Services/ServicesTwo";
 import Welcome from "../features/Landing/Welcome";
 import WhatWeDo from "../features/WhatWeDo/WhatWeDo";
 import Why from "../features/Why/Why";
+import Mission from "../features/Mission/Mission";
 
 function Section({ children }) {
   const [ref, inView] = useInView({
@@ -49,6 +50,9 @@ function Home() {
       </Section>
       <Section>
         <Experiance />
+      </Section>
+      <Section>
+        <Mission />
       </Section>
     </AppLayout>
   );
