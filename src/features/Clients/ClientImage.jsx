@@ -4,7 +4,7 @@ function ClientImage({ path }) {
   return (
     <img
       src={path}
-      className="md:w-[6rem] md:h-[6rem] w-[6rem] h-[6rem] mt-4 "
+      className="md:w-[6rem] md:h-[6rem] w-[7rem] h-[7rem] mt-4 "
     />
   );
 }
