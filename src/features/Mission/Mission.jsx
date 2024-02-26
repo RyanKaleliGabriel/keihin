@@ -5,7 +5,7 @@ import { IoCash } from "react-icons/io5";
 function Mission() {
   return (
     <section id="clients" className="px-8 mt-16 font-popins">
-      <h2 className="text-[1.5rem] text-center text-[lightgrey] sm:my-5 md:mt-0">
+      <h2 className="text-[1.5rem] text-center text-[darkgrey]  sm:my-5 md:mt-0">
         Mission, Ability and Company Vision
       </h2>
       <p className="text-sm text-center text-[grey] my-10">
@@ -18,7 +18,7 @@ function Mission() {
         offer logistical support and advice to our clients at any given time.
       </p>
 
-      <div className="flex flex-col md:flex-row  justify-around md:gap-[10rem] gap-[3rem] m-10">
+      <div className="flex flex-col lg:flex-row  justify-around md:gap-[5rem] gap-[3rem] m-10">
         <div className="rounded-sm border border-[darkgrey] text-center basis-auto p-4">
           <GiBullseye className="mx-auto text-3xl text-[maroon] " />
           <p className="font-bold text-[16px] mb-3">Mission</p>

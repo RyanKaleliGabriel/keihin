@@ -1,5 +1,4 @@
 import Bluespan from "../../ui/Bluespan";
-// import { CiCircleCheck } from "react-icons/ci";
 
 function About() {
   return (
@@ -12,8 +11,8 @@ function About() {
         alt="About Section Image"
         className="md:h-96 md:w-96 sm:mb-8 "
       />
-      <div className="flex flex-col gap-6 text-justify text-[darkgrey] ">
-        <h2 className="text-[1.5rem] text-[lightgrey] ">About Company</h2>
+      <div className="flex flex-col gap-6 text-justify text-[grey] ">
+        <h2 className="text-[1.5rem] text-[darkgrey] ">About Company</h2>
         <p className="text-[13px]">
           <Bluespan>KEIHIN MARITIME SERVICES CO. LTD</Bluespan> is a registered
           company and incorporated in the Republic of Kenya. Its main objective
@@ -28,14 +27,12 @@ function About() {
           Servcies, Limugi Co. Ltd and Bahari Storage facility in Meru.{" "}
         </p>
         <div className="text-[13px] flex items-center">
-          {/* <CiCircleCheck className="text-[maroon] " /> */}
           <p>
             Deals with the <Bluespan>management of cargo</Bluespan> as it enters
             or exits a country.
           </p>
         </div>
         <div className="text-[13px] flex items-center">
-          {/* <CiCircleCheck className="text-[maroon] " /> */}
           <p>
             {" "}
             It consists of a sequence of <Bluespan>
