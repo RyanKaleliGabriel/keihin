@@ -12,7 +12,7 @@ function Management() {
           id="About"
           className=" px-8 mt-16 md:flex justify-around gap-12 font-popins sm:flex-row"
         >
-          <div className="flex mt-10 flex-col gap-6 text-justify basis-[25rem] text-[grey] ">
+          <div className="flex mt-10 flex-col gap-6 text-justify basis-[36rem] text-[grey] ">
             <h2 className="text-[1.5rem] text-[grey] ">Management</h2>
             <p className="text-[13px]">
               Eric Gitonga Stanley and Elizabeth Mbinya Mundali are the founding
@@ -28,11 +28,10 @@ function Management() {
               Among his career objectives is to contribute to the growth of the
               organization and bring results using his management skills and
               knowledge while promoting professional and moral ethics.A planning
-              and management graduate major from the{" "}
+              and management graduate major from the
               <Bluespan>
-                {" "}
-                <a href="https://www.uonbi.ac.ke/">University of Nairobi</a>
-              </Bluespan>{" "}
+                <a href="https://www.uonbi.ac.ke/"> University of Nairobi</a>
+              </Bluespan>
               , Gitonga has along and cherished history of involvement with the
               clearing and forwarding industry.
             </p>
@@ -47,7 +46,9 @@ function Management() {
         <div className=" font-popins flex flex-col lg:flex-row  justify-center md:gap-[5rem] gap-[3rem] m-10">
           <div className="rounded-sm bg-white shadow-xl  text-center basis-[20rem]  p-4">
             <FaHandshake className="mx-auto text-3xl text-nrmblue " />
-            <p className=" text-[18px] mt-4 mb-4">Parcticipation & Rebranding</p>
+            <p className=" text-[18px] mt-4 mb-4">
+              Parcticipation & Rebranding
+            </p>
             <p className="text-[10px] text-[grey]">
               This history of participation, contribution, involvement and
               articulation of ideas and suggestions including proposals to
