@@ -24,7 +24,8 @@ export default {
       nrmblue: "#5AB8CF",
       navblue:"#E0F7F8",
       orange:"#DF6035",
-      purple: "#CB6CE6"
+      purple: "#CB6CE6",
+      backmng:"#F6F6F6"
     },
     extend: {
       height: {
