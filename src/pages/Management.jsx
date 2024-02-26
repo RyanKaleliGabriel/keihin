@@ -44,7 +44,7 @@ function Management() {
           />
         </section>
 
-        <div className=" font-popins flex flex-col lg:flex-row  justify-around md:gap-[5rem] gap-[3rem] m-10">
+        <div className=" font-popins flex flex-col lg:flex-row  justify-center md:gap-[5rem] gap-[3rem] m-10">
           <div className="rounded-sm bg-white shadow-xl  text-center basis-[20rem]  p-4">
             <FaHandshake className="mx-auto text-3xl text-nrmblue " />
             <p className=" text-[18px] mt-4 mb-4">Parcticipation & Rebranding</p>
