@@ -21,7 +21,9 @@ function Section({ children }) {
   return (
     <div
       ref={ref}
-      className={inView ? "animate__animated animate__fadeInUp" : ""}
+      className={
+        inView ? "animate__animated animate__fadeInUp animate__delay-1.5s " : ""
+      }
     >
       {children}
     </div>
