@@ -2,9 +2,6 @@ import { Link } from "react-router-dom";
 import { HiMenu, HiX } from "react-icons/hi";
 import { useState } from "react";
 
-
-
-
 function NavMenu() {
   const [style, setStyle] = useState("");
   const [isOpen, setIsOpen] = useState(false);
@@ -36,6 +33,12 @@ function NavMenu() {
             className=" text-center text-nrmblue hover:bg-navblue transition-all ease-in-out  px-5 py-1 rounded-lg"
           >
             Contact
+          </Link>
+          <Link
+            to="/management"
+            className=" text-center text-nrmblue hover:bg-navblue transition-all ease-in-out  px-5 py-1 rounded-lg"
+          >
+            Management
           </Link>
         </nav>
       ) : null}
