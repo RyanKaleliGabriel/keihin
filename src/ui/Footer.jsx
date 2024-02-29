@@ -30,13 +30,21 @@ function Footer() {
                         </div>
                         <div className="flex items-center mb-3">
                             <HiChevronRight className="text-[16px] text-[maroon]" />
+                            <Link to='/services'>Services</Link>
+                        </div>
+                        <div className="flex items-center mb-3">
+                            <HiChevronRight className="text-[16px] text-[maroon]" />
+                            <Link to='/management'>Management</Link>
+                        </div>
+                        <div className="flex items-center mb-3">
+                            <HiChevronRight className="text-[16px] text-[maroon]" />
                             <Link to='/contact'>Contact</Link>
                         </div>
 
                     </ul>
                 </div>
 
-                <div>
+                {/* <div>
                     <h2 className="font-bold text-[14px] mb-5">Our Services</h2>
                     <ul className="text-[12px]">
                         <div className="flex items-center mb-3">
@@ -48,7 +56,7 @@ function Footer() {
                             <li>Section 2</li>
                         </div>
                     </ul>
-                </div>
+                </div> */}
             </footer>
 
             <div className="bg-[black] text-[white] text-[14px] text-center px-12 py-4 font-popins">

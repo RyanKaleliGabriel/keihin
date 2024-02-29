@@ -1,20 +1,19 @@
-import Bluespan from "../../ui/Bluespan";
 
 function About() {
   return (
     <section
       id="About"
-      className="px-8 mt-16 md:flex gap-12 font-popins sm:flex-row"
+      className=" px-8 mt-16 md:flex justify-evenly gap-12 font-popins sm:flex-row"
     >
       <img
         src="/about.jpg"
         alt="About Section Image"
         className="md:h-96 md:w-96 sm:mb-8 "
       />
-      <div className="flex flex-col gap-6 text-justify text-[grey] ">
-        <h2 className="text-[1.5rem] text-[darkgrey] ">About Company</h2>
-        <p className="text-[13px]">
-          <Bluespan>KEIHIN MARITIME SERVICES CO. LTD</Bluespan> is a registered
+      <div className="flex mt-7  flex-col gap-3 text-justify basis-[36rem] text-[grey] ">
+        <h2 className="text-[1.5rem] text-nrmblue ">About Company</h2>
+        <p className="text-[13px] my-4">
+          KEIHIN MARITIME SERVICES CO. LTD is a registered
           company and incorporated in the Republic of Kenya. Its main objective
           is to supply General Hardware, Building blocks, Timber, Repairs, Sand,
           Hardcore, Food staff and provision of clearing and forwarding
@@ -24,24 +23,11 @@ function About() {
           It also undertakes building and construction and management agency
           under management of its sister company Blessed Union Co. Ltd. Other
           associated companies include Kickdown Co. Ltd, Erikah maritime
-          Servcies, Limugi Co. Ltd and Bahari Storage facility in Meru.{" "}
+          Servcies, Limugi Co. Ltd and Bahari Storage facility in Meru. Deals
+          with the management of cargo as it enters or exits a country.It
+          consists of a sequence of critical processes designed to make the flow
+          of commodities as smooth and efficient as possible.
         </p>
-        <div className="text-[13px] flex items-center">
-          <p>
-            Deals with the <Bluespan>management of cargo</Bluespan> as it enters
-            or exits a country.
-          </p>
-        </div>
-        <div className="text-[13px] flex items-center">
-          <p>
-            {" "}
-            It consists of a sequence of <Bluespan>
-              critical processes
-            </Bluespan>{" "}
-            designed to make the flow of commodities as smooth and efficient as
-            possible.{" "}
-          </p>
-        </div>
       </div>
     </section>
   );

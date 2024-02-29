@@ -4,11 +4,11 @@ import { IoCash } from "react-icons/io5";
 
 function Mission() {
   return (
-    <section id="clients" className="px-8 mt-16 font-popins">
-      <h2 className="text-[1.5rem] text-center text-[darkgrey]  sm:my-5 md:mt-0">
+    <section id="clients" className="px-8 mt-16 mb-16 font-popins">
+      <h2 className="text-[1.5rem] text-center text-nrmblue  sm:my-5 md:mt-0">
         Mission, Ability and Company Vision
       </h2>
-      <p className="text-sm text-center text-[grey] my-10">
+      <p className="px-2 text-sm text-center text-[grey] my-10">
         We have rendered services to major importers and exporters and we are
         able to handle large volumes of cargo to unspecified quantity i.e over
         1000 tonnes of cargo at once and of value of more than Ksh 100 million.
@@ -19,9 +19,9 @@ function Mission() {
       </p>
 
       <div className="flex flex-col lg:flex-row  justify-around md:gap-[5rem] gap-[3rem] m-10">
-        <div className="rounded-sm border border-[darkgrey] text-center basis-auto p-4">
+        <div className="rounded-sm cursor-pointer bg-white transition-all ease-in-out hover:bg-[lightgrey] shadow-xl text-center basis-[20rem] p-4">
           <GiBullseye className="mx-auto text-3xl text-[maroon] " />
-          <p className="font-bold text-[16px] mb-3">Mission</p>
+          <p className="font-bold text-[black] text-[16px] mb-3">Mission</p>
           <p className="text-[11px] text-[grey]">
             To instill clientele confidence by provision of efficient and
             quality services in supply and construction industry to our existing
@@ -31,7 +31,7 @@ function Mission() {
             providing job opportunities and participation in welfare activities.
           </p>
         </div>
-        <div className="rounded-sm border border-[darkgrey] text-center basis-auto  p-4">
+        <div className="rounded-sm cursor-pointer bg-white transition-all ease-in-out hover:bg-[lightgrey] shadow-xl text-center basis-[20rem] p-4">
           <FaEye className="mx-auto text-3xl text-green" />
           <p className="font-bold text-[16px] mb-3">Vision</p>
           <p className="text-[11px] text-[grey]">
@@ -40,7 +40,7 @@ function Mission() {
             in services delivery.
           </p>
         </div>
-        <div className="rounded-sm border border-[darkgrey] text-center basis-auto  p-4">
+        <div className="rounded-sm cursor-pointer bg-white transition-all ease-in-out hover:bg-[lightgrey] shadow-xl text-center basis-[20rem] p-4">
           <IoCash className="mx-auto text-3xl text-[orange]" />
           <p className="font-bold text-[16px] mb-3">Marketing Vision</p>
           <p className="text-[11px] text-[grey]">

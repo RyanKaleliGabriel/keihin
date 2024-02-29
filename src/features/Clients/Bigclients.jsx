@@ -7,7 +7,7 @@ function Bigclients() {
   return (
     <>
       <div>
-        <h2 className="text-[1.5rem] text-[darkgrey] text-center sm:my-5 md:mt-0">
+        <h2 className="text-[1.5rem] text-nrmblue text-center sm:my-5 md:mt-0">
           Our Trusted Clients
         </h2>
         <p className="text-sm text-center text-[grey] mt-5">

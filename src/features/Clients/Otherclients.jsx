@@ -6,7 +6,7 @@ const { list1, list2, list3 } = clients;
 
 function Otherclients() {
   return (
-    <div className="mt-12 px-8 bg-lightblue py-20">
+    <div className="mt-12 mb-12 px-8 bg-lightblue py-20">
       <h2 className="text-[1.5rem] text-[darkgrey] sm:my-5 md:mt-0">
         Other Clients
       </h2>

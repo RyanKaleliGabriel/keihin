@@ -5,7 +5,7 @@ import { HiOutlineArrowsUpDown } from "react-icons/hi2";
 function WhatWeDo() {
   return (
     <section className="font-popins bg-[white] text-justify" id="WWD">
-      <h2 className="text-[1.5rem] text-center mt-10 text-[darkgrey]">
+      <h2 className="text-[1.5rem] text-center mt-10 text-nrmblue">
         What We Do
       </h2>
       <div className=" px-14 py-20">

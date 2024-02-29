@@ -8,7 +8,7 @@ function ServicesTwo() {
       className="px-8 mt-16 font-popins  bg-lightblue py-12"
       id="SERVICESTWO"
     >
-      <h2 className="mb-12 text-[1.5rem] text-[darkgrey] text-center">
+      <h2 className="mb-12 text-[1.5rem] text-nrmblue text-center">
         Keihin Services
       </h2>
       <div className="md:flex gap-12 text-justify bg-lightblue ">

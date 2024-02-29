@@ -1,21 +1,24 @@
-import Navtag from "./Navtag";
+import { NavLink } from "react-router-dom";
+
 
 function NavSection() {
   return (
     <ul className="lg:flex sm:hidden  gap-12 text-[12px] mt-4">
       <li>
-        <Navtag tag="#Home">Home</Navtag>
+        <NavLink to="/services" className="text-nrmblue px-3 py-1 rounded hover:bg-navblue transition-all ease-in-out">
+          Services
+        </NavLink>
       </li>
       <li>
-        <Navtag tag="#WWD">What We Do</Navtag>
+        <NavLink to="/experience" className="text-nrmblue px-3 py-1 rounded hover:bg-navblue transition-all ease-in-out">
+          Experience & Clients
+        </NavLink>
       </li>
       <li>
-        <Navtag tag="#SERVICES">Services</Navtag>
+        <NavLink to="/management" className="text-nrmblue px-3 py-1 rounded hover:bg-navblue transition-all ease-in-out">
+          Management
+        </NavLink>
       </li>
-      <li>
-        <Navtag tag="#C&F">Clearing and Forwarding</Navtag>
-      </li>
-
     </ul>
   );
 }
