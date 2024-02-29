@@ -7,7 +7,7 @@ function Owner() {
       className=" px-8 mt-16 md:flex justify-around gap-12 font-popins sm:flex-row"
     >
       <div className="flex mt-10 flex-col gap-6 text-justify basis-[36rem] text-[grey] ">
-        <h2 className="text-[1.5rem] text-[grey] ">Management</h2>
+        <h2 className="text-[1.5rem] text-nrmblue">Management</h2>
         <p className="text-[13px]">
           Eric Gitonga Stanley and Elizabeth Mbinya Mundali are the founding
           directors of Keihin Maritime Services Limited and are by law
