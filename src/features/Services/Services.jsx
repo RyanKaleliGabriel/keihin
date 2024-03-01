@@ -6,7 +6,7 @@ import { HiShoppingCart } from "react-icons/hi";
 
 function Services() {
   return (
-    <section id="SERVICES" className="px-8 mt-24 font-popins">
+    <section id="SERVICES" className="px-8 mt-28 font-popins">
 
         <h2 className="text-[1.5rem] text-center text-nrmblue">
           Keihin Services
