@@ -8,6 +8,7 @@ const Contact = lazy(() => import("./pages/Contact"));
 const Management = lazy(() => import("./pages/Management"));
 const ExperiencePage = lazy(() => import("./pages/ExperiancePage"));
 const ServicesPage = lazy(() => import("./pages/ServicesPage"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/management" element={<Management />} />
             <Route path="/services" element={<ServicesPage />} />
             <Route path="/experience" element={<ExperiencePage />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </LocationProvider>
       </Suspense>

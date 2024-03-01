@@ -9,9 +9,7 @@ function More() {
       className=" px-8 mt-16 md:flex justify-evenly gap-12 font-popins sm:flex-row"
     >
       <div className="flex mt-10 flex-col gap-6 text-justify basis-[36rem] text-[grey] ">
-        <h2 className="text-[1.5rem] text-nrmblue ">
-          Overview of Our Company
-        </h2>
+        <h2 className="text-[1.5rem] text-nrmblue ">Overview of Our Company</h2>
         <p className="text-[13px]">
           Our company was inaugurated in 2005. It has its headquarters at the
           sea port of Mombasa on the Third Floor of Al-Amin Plaza, opposite
@@ -42,7 +40,7 @@ function More() {
             <li>Possesses a strong, competent and professional management</li>
           </div>
         </ul>
-        <Link to="/management" className="mx-2">
+        <Link to="/services" className="mx-2">
           <button className="text-[14px] bg-skyblue hover:bg-nrmblue transition-all ease-in-out px-5 py-3 rounded-lg  text-white mt-3">
             More About Us
           </button>
