@@ -29,6 +29,13 @@ function NavMenu() {
             Home
           </Link>
           <Link
+            to="/services"
+            className=" text-center text-nrmblue hover:bg-navblue transition-all ease-in-out  px-5 py-1 rounded-lg"
+          >
+            Services
+          </Link>
+
+          <Link
             to="/contact"
             className=" text-center text-nrmblue hover:bg-navblue transition-all ease-in-out  px-5 py-1 rounded-lg"
           >
@@ -39,6 +46,12 @@ function NavMenu() {
             className=" text-center text-nrmblue hover:bg-navblue transition-all ease-in-out  px-5 py-1 rounded-lg"
           >
             Management
+          </Link>
+          <Link
+            to="/experience"
+            className=" text-center text-nrmblue hover:bg-navblue transition-all ease-in-out  px-5 py-1 rounded-lg"
+          >
+            Experience & Clients
           </Link>
         </nav>
       ) : null}

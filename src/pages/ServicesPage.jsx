@@ -8,9 +8,9 @@ function ServicesPage() {
   return (
     <AppLayout>
       <Services />
-      <Section>
+      {/* <Section> */}
         <ServicesTwo />
-      </Section>
+      {/* </Section> */}
       <Section>
         <WhatWeDo />
       </Section>
